@@ -20,7 +20,7 @@ A VAE Model to generate handwritten MNIST Images
 
 Variational Autoencoders (VAEs) are a type of generative model that combine the capabilities of deep learning and probabilistic inference to generate new data points similar to the input data. They work by encoding input data into a latent space, where similar data points are grouped together, and then decoding this latent representation back into the original data space. This process allows VAEs to generate new, realistic data points by sampling from the learned latent space distribution.
 
-<img src="https://github.com/dineshg20897/mnist-vae-pytorch/blob/main/assets/VAE.png?raw=true" width="800"><br><br>
+<img src="https://github.com/dineshg20897/mnist_vae_pytorch/blob/main/assets/VAE.png?raw=True" width="800"><br><br>
 
 ### Basic Mathematics Behind VAEs
 
@@ -57,6 +57,6 @@ The MNIST database (Modified National Institute of Standards and Technology data
 
 ## Outputs
 
-Here you can see the VAE Model after 100 epochs
+Here you can see the VAE generated Images after 100 epochs
 
-<img src="https://github.com/dineshg20897/mnist-vae-pytorch/blob/main/assets/Output.png?raw=true" width="800">
+<img src="https://github.com/dineshg20897/mnist_vae_pytorch/blob/main/assets/Output.png?raw=True" width="800">
